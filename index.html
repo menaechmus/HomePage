@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello, World!</title>
+  <link rel="icon" type="image/svg+xml" href="squirrel.svg">
+  <style>
+    :root {
+      --bg: #faf6ef;
+      --text: #2b1a0e;
+      --muted: #7a6654;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1f1812;
+        --text: #f3e9dc;
+        --muted: #b8a692;
+      }
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      box-sizing: border-box;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      text-align: center;
+    }
+
+    .logo {
+      width: min(240px, 60vw);
+      height: auto;
+    }
+
+    h1 {
+      margin: 24px 0 8px;
+      font-size: clamp(2rem, 8vw, 3.5rem);
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.125rem;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="squirrel.svg" alt="Squirrel holding an acorn">
+  <h1>Hello, World!</h1>
+  <p>Welcome to my little corner of the web.</p>
+</body>
+</html>
