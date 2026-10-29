@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Backgammon board and dice</title>
+
+  <!-- board -->
+  <rect x="20" y="36" width="160" height="128" rx="10" fill="#8b4a14"/>
+  <rect x="30" y="46" width="140" height="108" rx="4" fill="#f3d9b1"/>
+  <rect x="96" y="46" width="8" height="108" fill="#8b4a14"/>
+
+  <!-- points -->
+  <path fill="#6b3d12" d="M30 46h11l-5.5 46z M52 46h11l-5.5 46z M74 46h11l-5.5 46z M104 46h11l-5.5 46z M126 46h11l-5.5 46z M148 46h11l-5.5 46z
+                          M41 154h11l-5.5-46z M63 154h11l-5.5-46z M85 154h11l-5.5-46z M115 154h11l-5.5-46z M137 154h11l-5.5-46z M159 154h11l-5.5-46z"/>
+  <path fill="#c9903a" d="M41 46h11l-5.5 46z M63 46h11l-5.5 46z M85 46h11l-5.5 46z M115 46h11l-5.5 46z M137 46h11l-5.5 46z M159 46h11l-5.5 46z
+                          M30 154h11l-5.5-46z M52 154h11l-5.5-46z M74 154h11l-5.5-46z M104 154h11l-5.5-46z M126 154h11l-5.5-46z M148 154h11l-5.5-46z"/>
+
+  <!-- dice -->
+  <g transform="translate(80 114) rotate(-12)">
+    <rect width="46" height="46" rx="9" fill="#fffaf2" stroke="#2b1a0e" stroke-width="3"/>
+    <g fill="#2b1a0e">
+      <circle cx="12" cy="12" r="4"/><circle cx="34" cy="12" r="4"/><circle cx="23" cy="23" r="4"/>
+      <circle cx="12" cy="34" r="4"/><circle cx="34" cy="34" r="4"/>
+    </g>
+  </g>
+  <g transform="translate(130 118) rotate(14)">
+    <rect width="46" height="46" rx="9" fill="#fffaf2" stroke="#2b1a0e" stroke-width="3"/>
+    <g fill="#2b1a0e">
+      <circle cx="12" cy="12" r="4"/><circle cx="23" cy="23" r="4"/><circle cx="34" cy="34" r="4"/>
+    </g>
+  </g>
+</svg>

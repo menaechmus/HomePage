@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Playing cards and a cribbage board</title>
+
+  <!-- back card -->
+  <g transform="rotate(-12 79 136)">
+    <rect x="40" y="28" width="78" height="108" rx="9" fill="#fffaf2" stroke="#8b4a14" stroke-width="4"/>
+    <path transform="translate(62 60) scale(1.15)" d="M0 -16 C-6 -8 -14 -3 -14 4 C-14 10 -8 13 -3 9 L-5 16 L5 16 L3 9 C8 13 14 10 14 4 C14 -3 6 -8 0 -16 Z" fill="#2b1a0e"/>
+  </g>
+
+  <!-- front card -->
+  <g transform="rotate(10 121 140)">
+    <rect x="82" y="32" width="78" height="108" rx="9" fill="#fffaf2" stroke="#8b4a14" stroke-width="4"/>
+    <path transform="translate(121 88) scale(1.5)" d="M0 14 C-14 4 -16 -4 -16 -8 C-16 -14 -11 -17 -7 -17 C-3 -17 -1 -14 0 -11 C1 -14 3 -17 7 -17 C11 -17 16 -14 16 -8 C16 -4 14 4 0 14 Z" fill="#c0392b"/>
+  </g>
+
+  <!-- peg board -->
+  <rect x="26" y="150" width="148" height="30" rx="8" fill="#b5651d" stroke="#8b4a14" stroke-width="4"/>
+  <g fill="#2b1a0e">
+    <circle cx="40" cy="160" r="3"/><circle cx="53" cy="160" r="3"/><circle cx="66" cy="160" r="3"/>
+    <circle cx="79" cy="160" r="3"/><circle cx="92" cy="160" r="3"/><circle cx="108" cy="160" r="3"/>
+    <circle cx="121" cy="160" r="3"/><circle cx="134" cy="160" r="3"/><circle cx="147" cy="160" r="3"/>
+    <circle cx="160" cy="160" r="3"/>
+    <circle cx="40" cy="171" r="3"/><circle cx="53" cy="171" r="3"/><circle cx="66" cy="171" r="3"/>
+    <circle cx="79" cy="171" r="3"/><circle cx="92" cy="171" r="3"/><circle cx="108" cy="171" r="3"/>
+    <circle cx="121" cy="171" r="3"/><circle cx="134" cy="171" r="3"/><circle cx="147" cy="171" r="3"/>
+    <circle cx="160" cy="171" r="3"/>
+  </g>
+  <circle cx="66" cy="160" r="5" fill="#c0392b"/>
+  <circle cx="121" cy="171" r="5" fill="#fffaf2"/>
+</svg>
