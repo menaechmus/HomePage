@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">A Connect Four board with red and yellow discs</title>
+
+  <!-- board -->
+  <rect x="16" y="34" width="168" height="146" rx="14" fill="#1f5fbf"/>
+
+  <!-- empty holes -->
+  <g fill="#0d2f63">
+    <circle cx="44" cy="62" r="17"/><circle cx="100" cy="62" r="17"/><circle cx="156" cy="62" r="17"/>
+    <circle cx="44" cy="108" r="17"/><circle cx="100" cy="108" r="17"/><circle cx="156" cy="108" r="17"/>
+    <circle cx="44" cy="154" r="17"/>
+  </g>
+
+  <!-- yellow discs -->
+  <g fill="#f7c936" stroke="#b0851a" stroke-width="3">
+    <circle cx="44" cy="108" r="17"/>
+    <circle cx="100" cy="154" r="17"/>
+  </g>
+
+  <!-- red discs -->
+  <g fill="#d8322f" stroke="#8e1512" stroke-width="3">
+    <circle cx="44" cy="154" r="17"/>
+    <circle cx="100" cy="108" r="17"/>
+    <circle cx="156" cy="62" r="17"/>
+    <circle cx="156" cy="154" r="17"/>
+  </g>
+
+  <!-- a disc on its way in -->
+  <circle cx="100" cy="16" r="13" fill="#f7c936" stroke="#b0851a" stroke-width="3"/>
+</svg>
